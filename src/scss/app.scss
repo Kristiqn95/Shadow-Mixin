@@ -27,3 +27,7 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.emoji {
+  @include shadow(20);
+}
